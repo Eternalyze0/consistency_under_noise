@@ -9,7 +9,7 @@ Consistency Under Noise:
 ```
 Test set: Average loss: 0.0239, Accuracy: 9922/10000 (99%)
 ```
-
+Code:
 ```py
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
